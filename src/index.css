@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-bg-1: #121212; /* Very dark gray, almost black */
+    --dark-bg-2: #1F2937; /* Dark blue-gray */
+    --dark-bg-3: #2C3E50; /* Midnight blue */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #121212;
+}
+
+.light-mode{
+    background: #FFF5EE;
+    
+}
+
+.light-mode h1{
+    color: black;
+}
+
+.light-mode .btn{
+    background-color: #121212;
+    color: white;
+}
+
+.light-mode .note{
+    background: #67d7cc;
+}
+
+.light-mode .note p, small, i{
+    color: black;
+}
+.light-mode .search{
+    background: gray;
+}
+.light-mode .search input{
+    background: gray;
+    color: black;
+}
+
+.light-mode .search input::placeholder{
+    color: black;
+}
